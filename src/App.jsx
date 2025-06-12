@@ -2,9 +2,18 @@ import React from 'react';
 
 const App = () => {
   return (
-    <div>
-      <h1 class="text-3xl font-bold underline"> Hello world! </h1>
-    </div>
+    <main>
+      <div className="pattern"></div>
+
+      <div className="wrapper">
+        <header>
+          <img src="./hero.png" alt="Hero Banner" />
+          <h1>
+            Find <span className="text-gradient">movies</span> You'll Enjoy without the Hassle
+          </h1>
+        </header>
+      </div>
+    </main>
   );
 };
 
